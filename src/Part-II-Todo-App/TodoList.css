@@ -1,0 +1,15 @@
+.todoList-wrapper{
+        background: #fff;
+        max-width: 400px;
+        margin: 120px auto;
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.header{
+    font-size: 30px;
+    font-weight: 600;
+}
+.todo-lists{
+    padding-left: 0;
+}

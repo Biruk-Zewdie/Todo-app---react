@@ -1,0 +1,63 @@
+html{
+    /* background-color:#9957c7; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg,#9432da, cornflowerblue);
+
+}
+.todo li{
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin-bottom: 8px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: default;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.remove-btn{
+    position: absolute;
+    right: -45px;
+    padding: 10px 15px;
+    width: 45px;
+    height: 100%;
+    border: none;
+    background-color:salmon;
+    color: #fff;
+    top: 0%;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0; 
+
+  } 
+.todo li:hover .remove-btn {
+    right: 0; 
+    opacity: 1; 
+}
+.edit-btn{
+    position: absolute;
+    right: 50px;
+    height: 39px;
+    background: cornflowerblue;
+    padding: 10px 15px;
+    top: 0%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    opacity: 0; 
+}
+.todo li:hover .edit-btn {
+    right: 20; 
+    opacity: 1; 
+}
+
+.checked{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}

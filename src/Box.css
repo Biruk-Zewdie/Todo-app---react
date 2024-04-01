@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-details {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.box-wrapper {
+    display: flex;
+}
+
+.Box {
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
+
+.remove-btn {
+    display: flex;
+    align-items: flex-end;
+}
